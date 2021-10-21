@@ -11,10 +11,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val rollButton: Button = findViewById(R.id.button)
         rollButton.setOnClickListener {
-          /*  val toast = Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT)
+<<<<<<< Updated upstream
+          /*val toast = Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT)
+=======
+          /* comments
+ val toast = Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT)
+>>>>>>> Stashed changes
             toast.show()
             val resultTextView: TextView = findViewById(R.id.textView)
             resultTextView.text = "6" */
+
 
             rollDice()
         }
