@@ -1,0 +1,5 @@
+<resources>
+    <string name="edit_message">Dice Roller</string>
+    <string name="edita_message">1</string>
+    <string name="roll">Roll</string>
+</resources>
